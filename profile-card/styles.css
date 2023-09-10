@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,300&family=Ubuntu:ital,wght@1,500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+  }
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 5px 5px 4px 4px rgb(199, 61, 61)
+  }
+  .img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    padding: 3px;
+  }
+  .img .profile-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: transform .5s ease-in-out;
+
+  }
+  .profile-img:hover{
+    transform: scale(1.3);
+  }
+  .info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+  
+  }
+  .info .name{
+    font-family: 'Fira Sans', sans-serif;
+margin-bottom: 8px;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .info .job{
+    font-size: 27px;
+    font-weight: 600;
+  }
+  .info .phone{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .social {
+    padding: 0;
+    list-style: none;
+  }
+  .social ul{
+    margin-left: 28px;
+  }
+  .social li {
+    display: inline-block;
+    margin-right: 0px;
+  }
+  
+  .social li a {
+    display: block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 230%;
+    color: black;
+    cursor: pointer;
+  
+  }
+  
+  .social li a:hover {
+    color: lightcoral;
+    font-size: 225%;
+  
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+
+  }
+  .buttons .button{
+    background-color: lightcoral;
+    margin: 0 10px;
+    padding: 8px 24px;
+    border-radius: 24px;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: rgb(234, 83, 83);
+  }
+  
+  
+  
